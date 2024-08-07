@@ -1,18 +1,23 @@
 programa {
   funcao inicio() {
-     //algoritimo do voto obrigatório
-   //declaração das variáveis
-   inteiro idade
+     //algoritimo do voto obrigatÃ³rio
+   //declaraÃ§Ã£o das variÃ¡veis]
+  cadeia nome
+
+  escreva("digite o seu nome: ")
+   leia(nome)
+
+  inteiro idade
 
    escreva("digite a sua idade ")
    leia(idade)
 
    se(idade>=18 e idade < 65){
-    escreva("voto pra voce é obrigadório")
+    escreva(nome,", voto pra voce Ã© obrigadÃ³rio")
    }senao se(idade >= 16 e idade <= 17 ou idade>= 65){
-    escreva("voto opcional!!")
+    escreva(nome,", voto para vocÃª Ã© opcional!!")
    }senao{
-     escreva("voto não permitido")
+     escreva(nome,", voto para vocÃª ainda nÃ£o Ã© permitido")
    }
   
   }
