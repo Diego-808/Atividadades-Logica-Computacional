@@ -1,7 +1,7 @@
 programa {
   funcao inicio() {
     //Algoritmo da tabuada
-    //DeclaraÁ„o das vari·veis
+    //Declara√ß√£o das vari√°veis
     inteiro multiplicando, i, resultado
     
     escreva("TABUADA 2 F \n\n")
